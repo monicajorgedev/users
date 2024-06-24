@@ -9,5 +9,46 @@ h1 {
   text-align: center;
   color: #333;
 }
+ul {
+  list-style: none;
+}
 
+#listaUsuarios{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
 
+.fichaUsuario {
+  display: flex;
+  background-color: white;
+  border: 1px solid lightgrey;
+  width: 400px;
+  height: 180px;
+  padding: 10px;
+  position: relative;
+  border-radius: 2%;
+  
+}
+
+.mainDates {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid lightgrey;
+  width: 240px;
+  border-radius: 2%;
+}
+.secondaryDates {
+  padding: 10px 0px 10px 10px;
+  position: absolute
+}
+img {
+  height: 100px;
+  margin-left: 15px;
+}
+span {
+  font-weight: bold;
+}
